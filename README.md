@@ -54,3 +54,24 @@ ip a  또는 ip addr
 
    ![image](https://github.com/user-attachments/assets/d2414206-2275-47f8-8373-f6ef92f90716)
 
+6. PAM 모듈 설치
+```
+sudo apt update
+sudo apt install libpam-pwquality
+
+```
+7. PAM 설정 파일 수정
+```
+sudo nano /etc/pam.d/common-password
+```
+
+![image](https://github.com/user-attachments/assets/551694d4-6193-47d9-8b27-d6bb58024bc0)
+
+```
+minlen = 8 추가
+```
+
+8. passwd 로 변경사항 확인
+
+![image](https://github.com/user-attachments/assets/c77f8e28-c24f-4c2e-b92f-e01298d705e6)
+
