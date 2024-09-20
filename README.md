@@ -1,6 +1,6 @@
 # Linux_PAM
 
-## myserver03 새로 생성하여 ip를 수정해 다른 vm끼리 통신할 수 있게 하고 PAM 사용해서 비밀번호를 8자리 이상으로 규제하기
+## PAM 사용해서 비밀번호를 8자리 이상으로 제한하기
 
 ### Step01 myserver01을 복제해 myserver03 생성
 
@@ -9,9 +9,9 @@
 ### Step02 myserver03의 ip 주소 변경하기
 
 1. ip를 변경하기 위해 yaml 파일 오픈
-   ```
-    sudo vi /etc/netplan/00-installer-config.yaml
-   ```
+```
+sudo vi /etc/netplan/00-installer-config.yaml
+```
 2. ip 주소 설정
 ```
 network:
