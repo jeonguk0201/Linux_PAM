@@ -8,11 +8,11 @@
 ### Step 03: 포트 변경 및 포트 포워딩 설정
 ### Step 04: PAM 모듈 설치 및 비밀번호 최소 길이 제한
 
-### Step 01: 🖥️ myserver01 복제 후 myserver03 생성
+## Step 01: 🖥️ myserver01 복제 후 myserver03 생성
 
 ![image](https://github.com/user-attachments/assets/f475f8b2-5a77-431c-b6e0-2805975f1018)
 
-### Step 02: 🌐 myserver03의 IP 주소 변경
+## Step 02: 🌐 myserver03의 IP 주소 변경
 
 1. ip를 변경하기 위해 yaml 파일 오픈
 ```
@@ -50,7 +50,7 @@ ip a  또는 ip addr
 
 ![image](https://github.com/user-attachments/assets/aee04340-b0e9-4757-a00a-6b4548015022)
 
-Step 03: 🔄 포트 변경 및 포트 포워딩 설정
+## Step 03: 🔄 포트 변경 및 포트 포워딩 설정
 
 1. config 파일 수정
 
@@ -60,7 +60,7 @@ Step 03: 🔄 포트 변경 및 포트 포워딩 설정
 
 ![image](https://github.com/user-attachments/assets/d2414206-2275-47f8-8373-f6ef92f90716)
 
-Step 04: ⚙️ PAM 모듈 설치 및 비밀번호 최소 길이 제한
+## Step 04: ⚙️ PAM 모듈 설치 및 비밀번호 최소 길이 제한
 1. PAM 모듈 설치
 ```
 sudo apt update
