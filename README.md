@@ -1,12 +1,12 @@
 # 🔒 Linux_PAM
 
-## PAM 사용해서 비밀번호를 8자리 이상으로 제한하기
+### PAM 사용해서 비밀번호를 8자리 이상으로 제한하기
 
 # 📋 목차
-## Step 01: myserver01 복제 후 myserver03 생성
-## Step 02: myserver03의 IP 주소 변경
-## Step 03: 포트 변경 및 포트 포워딩 설정
-## Step 04: PAM 모듈 설치 및 비밀번호 최소 길이 제한
+### Step 01: myserver01 복제 후 myserver03 생성
+### Step 02: myserver03의 IP 주소 변경
+### Step 03: 포트 변경 및 포트 포워딩 설정
+### Step 04: PAM 모듈 설치 및 비밀번호 최소 길이 제한
 
 ### Step 01: 🖥️ myserver01 복제 후 myserver03 생성
 
