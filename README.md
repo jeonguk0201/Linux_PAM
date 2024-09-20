@@ -15,7 +15,7 @@
 ## Step 02: 🌐 myserver03의 IP 주소 변경
 
 1. ip를 변경하기 위해 yaml 파일 오픈
-```
+```linux
 sudo vi /etc/netplan/00-installer-config.yaml
 ```
 2. ip 주소 설정
